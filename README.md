@@ -4,8 +4,8 @@ ACITY CONNECT is a smart campus marketplace and skill exchange platform for Acad
 
 ## Deployment Link
 
-- Frontend GitHub Pages: Add your deployed GitHub Pages link here.
-- Backend Render: This version uses browser localStorage for demo data, so no backend deployment is required unless your lecturer requires a separate backend repository.
+- GitHub Repository: https://github.com/mirabelisaac4-lang/Web-tech-finals.git
+- Render: https://web-tech-finals.onrender.com
 
 ## Login Details
 
