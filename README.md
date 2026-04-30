@@ -30,6 +30,13 @@ ACITY CONNECT is a smart campus marketplace and skill exchange platform for Acad
 ## Installation Instructions
 
 1. Download or clone the project.
-2. Open `index.html` in a browser.
-3. Use the sample login details above or register with an email ending in `@acity.edu.gh`.
-4. To reset demo data, clear the browser localStorage for the site and reload.
+2. Run `npm install`.
+3. Run `npm start`.
+4. Open `http://localhost:3000` in a browser.
+5. Use the sample login details above or register with an email ending in `@acity.edu.gh`.
+6. To reset demo data, clear the browser localStorage for the site and reload.
+
+## Render Web Service Settings
+
+- Build Command: `npm install`
+- Start Command: `npm start`

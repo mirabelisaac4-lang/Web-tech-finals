@@ -1,0 +1,12 @@
+{
+  "name": "acity-connect",
+  "version": "1.0.0",
+  "description": "ACITY CONNECT smart campus marketplace and skill exchange web service.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
