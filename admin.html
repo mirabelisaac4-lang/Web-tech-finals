@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marketplace</title>
+    <title>Admin - ACITY CONNECT</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Marketplace</h1>
+    <h1>Admin Dashboard</h1>
     <p id="userStatus">Not logged in</p>
 </header>
 
@@ -26,36 +26,25 @@
     <div class="cart-icon">Requests: <span id="cartCount">0</span></div>
 </nav>
 
-<section>
-    <h2>Post Item for Sale</h2>
+<section id="adminDashboard">
+    <h2>Platform Activity</h2>
+    <div class="grid stats-grid">
+        <div class="card">
+            <h3 id="totalListings">0</h3>
+            <p>Total Listings</p>
+        </div>
+        <div class="card">
+            <h3 id="pendingListings">0</h3>
+            <p>Pending Approval</p>
+        </div>
+        <div class="card">
+            <h3 id="totalInteractions">0</h3>
+            <p>Total Interactions</p>
+        </div>
+    </div>
 
-    <form id="listingForm">
-        <label>Title:</label>
-        <input type="text" id="listingTitle" required>
-
-        <label>Description:</label>
-        <textarea id="listingDescription" required></textarea>
-
-        <label>Category:</label>
-        <select id="listingCategory" required>
-            <option value="Item">Item</option>
-            <option value="Skill">Skill</option>
-        </select>
-
-        <label>Status:</label>
-        <select id="listingStatus" required>
-            <option value="Available">Available</option>
-            <option value="Swapped">Swapped</option>
-            <option value="Sold">Sold</option>
-        </select>
-
-        <button type="submit">Submit Listing</button>
-    </form>
-</section>
-
-<section>
-    <h2>Searchable Marketplace Feed</h2>
-    <input type="text" id="listingSearch" placeholder="Search items..." class="search">
+    <h2>Moderate Listings</h2>
+    <input type="text" id="listingSearch" placeholder="Search listings..." class="search">
     <select id="categoryFilter">
         <option value="All">All Categories</option>
         <option value="Item">Items</option>
@@ -68,7 +57,7 @@
         <option value="Sold">Sold</option>
     </select>
 
-    <div id="listingFeed" class="grid" data-category="Item"></div>
+    <div id="listingFeed" class="grid"></div>
 </section>
 
 <footer>

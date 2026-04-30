@@ -60,6 +60,18 @@ button:hover {
     background-color: #3749c6;
 }
 
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e3a8a;
+    color: white;
+    text-decoration: none;
+}
+
+.button-link:hover {
+    background-color: #3749c6;
+}
+
 section {
     padding: 20px;
 }
@@ -84,9 +96,17 @@ form {
     flex-direction: column;
 }
 
-form input {
+form input,
+form textarea,
+form select,
+section select {
     margin-bottom: 10px;
     padding: 10px;
+}
+
+form textarea {
+    min-height: 90px;
+    resize: vertical;
 }
 
 footer {
@@ -107,6 +127,36 @@ footer {
     height: 180px;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.listing-card {
+    text-align: left;
+}
+
+.listing-card h3,
+.listing-card p {
+    text-align: left;
+}
+
+.admin-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.danger {
+    background-color: #9b1c1c;
+}
+
+.danger:hover {
+    background-color: #c53030;
+}
+
+.stats-grid .card h3 {
+    color: #1e3a8a;
+    font-size: 32px;
+    margin: 0;
 }
 
 section {
