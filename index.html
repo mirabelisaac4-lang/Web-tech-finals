@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACITY CONNECT - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>ACITY CONNECT</h1>
+    <p>Smart Campus Marketplace & Skill Exchange</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Marketplace.html">Marketplace</a></li>
+        <li><a href="Skill.html">Skill</a></li>
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="#" id="logout">Logout</a></li>
+    </ul>
+    <div class="cart-icon">
+    Cart: <span id="cartCount">0</span>
+</div>
+</nav>
+
+<main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="images/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="Campus Banner">
+        <h2>Welcome to ACITY CONNECT</h2>
+        <p>A platform where students buy, sell, and exchange skills within campus.</p>
+        <button>Get Started</button>
+    </section>
+
+    <!-- FEATURED MARKETPLACE -->
+    <section class="sec1">
+        <h2>Featured Marketplace Items</h2>
+        <p>Explore some of the most popular items currently available for students on campus.</p>
+
+        <div class="grid">
+            <div class="card">
+                <img src="images/goran-ivos-wJpl8D38Tq8-unsplash (1).jpg" alt="Laptop">
+                <h3>Laptop</h3>
+                <p>Affordable and reliable for students.</p>
+                <p class="price">GHS 2,500</p>
+               <button class="add-to-cart" data-name="Laptop" data-price="2500">Buy Now</button>
+            </div>
+
+            <div class="card">
+                <img src="images/bruno-guerrero-jxKakgpKRWE-unsplash.jpg" alt="Books">
+                <h3>Textbooks</h3>
+                <p>Get essential course books at great prices.</p>
+                <p class="price">GHS 150</p>
+                <button class="add-to-cart" data-name="Textbooks" data-price="150">Buy Now</button>
+            </div>
+
+            <div class="card">
+                <img src="images/birgith-roosipuu-QRT7kipBGU8-unsplash.jpg" alt="Headphones">
+                <h3>Headphones</h3>
+                <p>High-quality sound for study and entertainment.</p>
+                <p class="price">GHS 300</p>
+                <button class="add-to-cart" data-name="Headphones" data-price="300">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED SKILLS -->
+    <section class="sec2">
+        <h2>Featured Skills</h2>
+        <p>Connect with talented students offering valuable services and skills.</p>
+
+        <div class="grid">
+            <div class="card">
+                <img src="images/mona-miller-JAjD4uokc6k-unsplash.jpg" alt="Graphic Design">
+                <h3>Graphic Design</h3>
+                <p>Logos, posters, and creative designs.</p>
+                <p class="price">GHS 80 / project</p>
+                <button class="add-to-cart" data-name="Graphic Design" data-price="80">Hire Now</button>
+            </div>
+
+            <div class="card">
+                <img src="images/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg" alt="Programming">
+                <h3>Programming Tutor</h3>
+                <p>Learn Java, HTML, and web development.</p>
+                <p class="price">GHS 50 / session</p>
+                <button class="add-to-cart" data-name="Programming Tutor" data-price="50">Hire Now</button>
+            </div>
+
+            <div class="card">
+                <img src="images/jamie-street-qWYvQMIJyfE-unsplash.jpg" alt="Photography">
+                <h3>Photography</h3>
+                <p>Professional photos for events and projects.</p>
+                <p class="price">GHS 120 / event</p>
+                <button class="add-to-cart" data-name="Photography" data-price="120">Hire Now</button>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 ACITY CONNECT</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
